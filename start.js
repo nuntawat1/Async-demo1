@@ -9,6 +9,7 @@ function simulateAsyncAPI(text, timeout){
             },timeout);
         });
     }
+
     async function run(){
     }
 })();
