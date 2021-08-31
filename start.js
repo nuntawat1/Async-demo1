@@ -19,4 +19,5 @@ function simulateAsyncAPI(text, timeout){
             console.error(error)
     }
     }
+    run();
 })();
