@@ -11,5 +11,12 @@ function simulateAsyncAPI(text, timeout){
     }
 
     async function run(){
+        try{
+            await simulateAsyncAPI ('A', 1000);
+            await simulateAsyncAPI ('B',500)
+            await simulateAsyncAPI ('C',100)
+        } catch(error){
+            console.error(error)
+    }
     }
 })();
